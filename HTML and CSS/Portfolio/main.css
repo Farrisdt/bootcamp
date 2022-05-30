@@ -1,0 +1,62 @@
+/* All CSS code for Home Page */
+
+/* Navigation Bar */
+.nav-style {
+    /* background-color: black; */
+    color: black !important;
+}
+
+/* Header Section */
+.header-bg {
+    height: 75vh;
+    background-image: url(images/mantisOnFlowers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: var(--deepSage);
+}
+/* About Section */
+.about-img {
+    max-height: 400px;
+}
+
+
+/* Skills Section */
+.section_skills {
+    background-color: var(--light-blue);
+}
+
+
+
+
+
+/* Icons */
+.skills-icon{
+    font-size: 1.2rem;
+}
+
+.project-img{
+    height: 400px;
+}
+
+.project-img:hover{
+    transform: (1.2);
+    transition: ease-in-out;
+    transition-duration: (1s);
+}
+
+.project-img-container{
+    overflow:hidden;
+}
+
+.btn-green{
+    color: var(--deepSage);
+    border: solid var(--deepSage);
+}
+.btn-green:hover{
+    background-color: var(--sage);
+    border: solid var(--deepSage);
+}
+
+.section-contact{
+    background-color: var(--orchid);
+}

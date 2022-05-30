@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Title</title>
+    </head>
+    <body>
+
+        <p>Text goes here</p>
+        <div>
+            <label>Name: </label>
+            <input id="name" type="text">
+        </div>
+    </body>
+    <script>
+        console.log("Testing 1")
+
+        var nameInput = document.getElementById(name)
+        console.log("Testing 2")
+        nameInput.addEventListener('input', (e) => {
+            console.log("Testing 3")
+            consol.log("Change")
+            consol.log(e.target.value)
+        })
+        console.log("Testing 4")
+        consol.log(nameInput)
+
+    </script>
+</html>

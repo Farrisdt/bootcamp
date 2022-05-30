@@ -1,0 +1,18 @@
+:root{
+    /* Color Scheme */
+    --champagne: #ede4a9;
+    --orchid: #ac5e97;
+    --sage: #9bc2a8;
+    --deepSpace: #322850;
+    --deepSage: #2b5b5b;
+
+    --veronese: #1d9782;
+    --lemon: #c5eb2f;
+    --persimmon: #e15a00;
+    --cyberGrape: #67477c;
+    --russianViolet: #2b143c;
+
+    /* Fonts */
+    --header-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Lora', serif;
+}

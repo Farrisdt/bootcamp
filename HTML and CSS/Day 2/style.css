@@ -1,0 +1,57 @@
+*{
+    box-sizing:boarder-box;
+}
+
+.box1{
+    z-index: 1;
+    height: 300px;
+    width: 600px;
+    background-color: salmon;
+    border: solid;
+    top:100px;
+    left:100px;
+    position: absolute;
+}
+.box2{
+    z-index: 0;
+    height: 300px;
+    width: 600px;
+    background-color: powderblue;
+    border: solid;
+}
+.navbar{
+    width:750px;
+    height:50px;
+    background-color: lemonchiffon;
+    border: solid;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.header1 {
+    margin: 0;
+}
+.new-font{
+    font-family: GOOGLEFONTNAME, sans-serif;
+    font-weight: 100;
+}
+.fa-camera{
+    font-size: 100px;
+    position: absolute;
+    top: 10px;
+    color: darkcyan;
+    z-index: 10;
+}
+.fa-fish {
+    color: salmon;
+    font-size: 25px;
+    padding: 0px;
+  }
+
+
+
+
+
+
+/*position sticky will stay in page but stick to top if scrolled past
+/*visability:hidden hides elements

@@ -1,0 +1,35 @@
+.viewport{
+    height: 30vh;
+    background-color: goldenrod;
+}
+.percentText{
+    height: 15vh;
+    background-color: dimgray;
+}
+.percent{
+    height: 50vh;
+    background-color: firebrick;
+}
+/* 1em=16px by defult */
+.em{
+    background-color: lightblue;
+}
+.emParent{
+    font-size: 30px;
+}
+/* 1rem also is 16px by defult*/
+.rem{
+    background-color: plum;
+    padding 1rem;
+}
+@media(max-width: 600px){
+    html{
+        font-size: 10px;
+    }
+}
+
+
+/* For Bootstrap*/
+.size{
+    font-size: 15px;
+}

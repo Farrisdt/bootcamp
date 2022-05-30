@@ -1,0 +1,113 @@
+/* .textholder{
+    z-index: 0;
+    width:400px;
+    height: 400px;
+    background-color:crimson;
+    position: relative;
+}
+
+.containertext{
+    border:solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h3{
+    transform: translateX(500px);
+    transform: translateY(100px);
+} */
+/*To make child absolue parent must be realtive*/
+
+
+.imageheader{
+    background-image: url(computer.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.headertext{
+    background-color: white;
+    position: absolute;
+    top:50%;
+    left:25%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px black;
+    max-width: 33%;
+}
+button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    margin-right: 20px;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: ease-out;
+    transition-duration: 1s;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*rapidtables.com has a list of diffrent screen sizes*/
+
+.green{
+    background-color: darkolivegreen;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.blue{
+    background-color: aliceblue;
+    height: 20px;
+    color: midnightblue;
+    font-size: 15px;
+    text-align: center;
+}
+@media (min-width: 1000px){
+    .blue{
+        height: 70px;
+        font-size: 65px;
+        background-color: darkslateblue;
+    }
+}
+
+@media (min-width: 600px){
+    .green{
+        height: 40px;
+        font-size: 35px;
+        background-color: darkseagreen;
+    }
+}
+
+@media(min-width: 800px){
+    .green{
+        height: 60px;
+        font-size: 55px;
+        background-color: green;
+    }
+}
+@media(min-width: 1200px){
+    .green{
+        height: 80px;
+        font-size: 75px;
+        background-color: olivedrab;
+    }
+}
+/*  vvv tbdefined next class
+    rem:
+    em:
+    px:
+    viewport: size of view (screen?) dinamic with screen height, used for headings
+    
+    challenge: make practice website responsive
+    ie: moble would look better centered, large should be less stretched out*/
